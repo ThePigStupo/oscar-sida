@@ -1,0 +1,23 @@
+
+    {
+      "name": "Tage",
+      "description": "Hej! Jag heter Tage! Jag är en katt. Jag är en blandras. Mina raser är Maine Coon, Norsk skogkatt och någon ras husse och matte kallar okänd. Jag vet inte ens vad det betyder😑.",
+      "images": [
+        {
+          "src": "/bilder/tage_front.jpg",
+          "altText": "",
+          "caption": "Tage",
+          "header": "Bild 1"
+        },
+        {
+          "src": "/bilder/tage.jpg",
+          "altText": "Tage i en lååååååådaaaaaaaaaaaa",
+          "caption": "Här ligger Tage i en låda" 
+        },
+        {
+          "src": "/bilder/tage2.jpg",
+          "altText": "",
+          "caption": "Tage"
+        }
+      ] 
+    }

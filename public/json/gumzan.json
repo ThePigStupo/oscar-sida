@@ -1,0 +1,13 @@
+{
+  "name": "Gumzan",
+  "description": "Gumzan tycker om ostbågar, och att ligga i min säng. Hon gillar inte ost. Men ostbågar gillar hon, Hehe🤣",
+  "images": [
+    {
+      "src": "/bilder/gumzan.jpg",
+      "altText": "",
+      "caption": "Gumzan",
+      "header": "Bild 1"
+    }
+  ] 
+}
+
