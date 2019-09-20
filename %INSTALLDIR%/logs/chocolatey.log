@@ -1,0 +1,236 @@
+2019-09-17 13:40:39,261 15184 [DEBUG] - XmlConfiguration is now operational
+2019-09-17 13:40:39,308 15184 [INFO ] - ============================================================
+2019-09-17 13:40:39,346 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\config".
+2019-09-17 13:40:39,793 15184 [DEBUG] - User may be subject to UAC, checking for a split token (not 100% 
+ effective).
+2019-09-17 13:40:39,824 15184 [DEBUG] - Attempting to replace "%INSTALLDIR%\config\chocolatey.config"
+ with "%INSTALLDIR%\config\chocolatey.config.15184.update".
+ Backup placed at "%INSTALLDIR%\config\chocolatey.config.backup".
+2019-09-17 13:40:39,824 15184 [DEBUG] - Attempting to copy "%INSTALLDIR%\config\chocolatey.config.15184.update"
+ to "%INSTALLDIR%\config\chocolatey.config".
+2019-09-17 13:40:39,824 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\config\chocolatey.config.15184.update".
+2019-09-17 13:40:39,840 15184 [INFO ] - Chocolatey v0.10.15
+2019-09-17 13:40:39,847 15184 [DEBUG] - Chocolatey is running on Windows v 10.0.18362.0
+2019-09-17 13:40:39,847 15184 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2019-09-17 13:40:39,847 15184 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2019-09-17 13:40:39,862 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\helpers".
+2019-09-17 13:40:39,878 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\helpers\functions".
+2019-09-17 13:40:52,608 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\redirects".
+2019-09-17 13:40:52,618 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\tools".
+2019-09-17 13:40:53,072 15184 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" install yarn
+2019-09-17 13:40:53,072 15184 [DEBUG] - Received arguments: install yarn
+2019-09-17 13:40:53,118 15184 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2019-09-17 13:40:53,118 15184 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2019-09-17 13:40:53,134 15184 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2019-09-17 13:40:53,134 15184 [WARN ] - Directory '%INSTALLDIR%\lib' does not exist.
+2019-09-17 13:40:53,181 15184 [DEBUG] - Performing validation checks.
+2019-09-17 13:40:53,181 15184 [DEBUG] - Global Configuration Validation Checks:
+2019-09-17 13:40:53,197 15184 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2019-09-17 13:40:53,197 15184 [DEBUG] - System State Validation Checks:
+2019-09-17 13:40:53,212 15184 [DEBUG] -  Reboot Requirement Checks:
+2019-09-17 13:40:53,212 15184 [DEBUG] -  - Pending Computer Rename = Checked
+2019-09-17 13:40:53,212 15184 [DEBUG] -  - Pending Component Based Servicing = Checked
+2019-09-17 13:40:53,228 15184 [DEBUG] -  - Pending Windows Auto Update = Checked
+2019-09-17 13:40:53,228 15184 [DEBUG] -  - Pending File Rename Operations = Checked
+2019-09-17 13:40:53,228 15184 [DEBUG] -  - Pending Windows Package Installer = Checked
+2019-09-17 13:40:53,243 15184 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2019-09-17 13:40:53,243 15184 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2019-09-17 13:40:53,243 15184 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2019-09-17 13:40:53,243 15184 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2019-09-17 13:40:53,259 15184 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\oscar\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='yarn'|AllVersions='False'|
+SkipPackageInstallProvider='False'|PackageNames='yarn'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.18362.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='0.10.15.0'|
+Information.ChocolateyProductVersion='0.10.15'|
+Information.FullName='choco, Version=0.10.15.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='oscar'|Information.UserDomainName='SURFACE'|
+Information.IsUserAdministrator='False'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='False'|Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Information.CurrentDirectory='C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se'|
+
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+ApiKeyCommand.Remove='False'|PinCommand.Command='unknown'|
+OutdatedCommand.IgnorePinned='False'|Proxy.BypassOnLocal='True'|
+2019-09-17 13:40:53,259 15184 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2019-09-17 13:40:53,275 15184 [INFO ] - Installing the following packages:
+2019-09-17 13:40:53,290 15184 [INFO ] - yarn
+2019-09-17 13:40:53,290 15184 [INFO ] - By installing you accept licenses for the packages.
+2019-09-17 13:40:53,337 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\lib".
+2019-09-17 13:40:53,400 15184 [DEBUG] - Using 'https://chocolatey.org/api/v2/'.
+2019-09-17 13:40:53,651 15184 [DEBUG] - - Supports prereleases? 'True'.
+2019-09-17 13:40:53,651 15184 [DEBUG] - - Is ServiceBased? 'True'.
+2019-09-17 13:40:53,887 15184 [DEBUG] - Package 'yarn' found on source 'https://chocolatey.org/api/v2/'
+2019-09-17 13:40:54,012 15184 [INFO ] - [NuGet] Installing 'yarn 1.17.3'.
+2019-09-17 13:40:54,038 15184 [DEBUG] - [NuGet] Added file 'chocolateyinstall.ps1' to folder 'yarn\tools'.
+2019-09-17 13:40:54,054 15184 [DEBUG] - [NuGet] Added file 'yarn.nupkg' to folder 'yarn'.
+2019-09-17 13:40:54,315 15184 [DEBUG] - [NuGet] Added file 'yarn.nuspec' to folder 'yarn'.
+2019-09-17 13:40:54,331 15184 [INFO ] - [NuGet] Successfully installed 'yarn 1.17.3'.
+2019-09-17 13:40:54,331 15184 [INFO ] - 
+yarn v1.17.3 [Approved]
+2019-09-17 13:40:54,346 15184 [INFO ] - yarn package files install completed. Performing other installation steps.
+2019-09-17 13:40:54,534 15184 [DEBUG] - Setting installer args for yarn
+2019-09-17 13:40:54,534 15184 [DEBUG] - Setting package parameters for yarn
+2019-09-17 13:40:54,534 15184 [DEBUG] - Contents of '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1':
+2019-09-17 13:40:54,549 15184 [DEBUG] - $ErrorActionPreference = 'Stop'; # stop on all errors
+
+$packageName = 'yarn'
+
+$packageArgs = @{
+  packageName = $packageName
+  softwareName = 'Yarn*'
+  fileType = 'msi'
+  silentArgs = "/qn /norestart"
+  validExitCodes = @(0, 3010, 1641)
+  checksumType = 'sha256'
+
+  url = 'https://yarnpkg.com/downloads/1.17.3/yarn-1.17.3.msi'
+  checksum = '46E618592076FF2882A5D7E1D4F8D0FFB8B29918A6366A1FEA0F0BBDF145A4FA'
+}
+
+Install-ChocolateyPackage @packageArgs
+
+# Update Yarn's package.json file so it can tell that it was installed via Chocolatey.
+if (Test-Path "${env:ProgramFiles(x86)}\Yarn\package.json") {
+  $path = "${env:ProgramFiles(x86)}\Yarn\package.json"
+} else {
+  $path = "$env:ProgramFiles\Yarn\package.json"
+}
+
+$script = @"
+  (Get-Content -Path '$path') ``
+    -replace 'installationMethod":.+', 'installationMethod": "choco",' ``
+    | Set-Content '$path'
+"@
+
+Start-ChocolateyProcessAsAdmin -Statements $script
+
+if (-Not (Get-Command "node" -errorAction SilentlyContinue)) {
+  Write-Host "Yarn requires NodeJS to be installed. To install, use either of the commands below:"
+  Write-Host "choco install nodejs"
+  Write-Host "choco install nodejs-lts"
+}
+
+2019-09-17 13:40:54,549 15184 [INFO ] - The package yarn wants to run 'chocolateyinstall.ps1'.
+2019-09-17 13:40:54,565 15184 [INFO ] - Note: If you don't run this script, the installation will fail.
+2019-09-17 13:40:54,565 15184 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2019-09-17 13:40:54,565 15184 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2019-09-17 13:40:54,596 15184 [INFO ] - Do you want to run the script?
+2019-09-17 13:40:54,612 15184 [INFO ] -  1) yes
+2019-09-17 13:40:54,612 15184 [INFO ] -  2) all - yes to all
+2019-09-17 13:40:54,612 15184 [INFO ] -  3) no
+2019-09-17 13:40:54,612 15184 [INFO ] -  4) print
+2019-09-17 13:41:03,581 15184 [ERROR] - Timeout or your choice of 'ya' is not a valid selection.
+2019-09-17 13:41:03,581 15184 [WARN ] - You must select an answer
+2019-09-17 13:41:03,596 15184 [INFO ] - Do you want to run the script?
+2019-09-17 13:41:03,596 15184 [INFO ] -  1) yes
+2019-09-17 13:41:03,612 15184 [INFO ] -  2) all - yes to all
+2019-09-17 13:41:03,612 15184 [INFO ] -  3) no
+2019-09-17 13:41:03,612 15184 [INFO ] -  4) print
+2019-09-17 13:41:06,812 15184 [INFO ] - Choice selected: 'yes'
+2019-09-17 13:41:06,868 15184 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name '%INSTALLDIR%\helpers\chocolateyInstaller.psm1'; & '%INSTALLDIR%\helpers\chocolateyScriptRunner.ps1' -packageScript '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1' -installArguments '' -packageParameters ''']
+2019-09-17 13:41:06,868 15184 [DEBUG] - Redirecting System.Management.Automation.resources, Version=3.0.0.0, Culture=sv-SE, PublicKeyToken=31bf3856ad364e35, requested by ''
+2019-09-17 13:41:07,059 15184 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2019-09-17 13:41:07,106 15184 [DEBUG] - ---------------------------Script Execution---------------------------
+2019-09-17 13:41:07,106 15184 [DEBUG] - Running 'ChocolateyScriptRunner' for yarn v1.17.3 with packageScript '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1', packageFolder:'%INSTALLDIR%\lib\yarn', installArguments: '', packageParameters: '',
+2019-09-17 13:41:07,122 15184 [DEBUG] - Running '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'
+2019-09-17 13:41:07,168 15184 [ERROR] - ERROR: The term 'Install-ChocolateyPackage' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2019-09-17 13:41:07,184 15184 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name '%INSTALLDIR%\helpers\chocolateyInstaller.psm1'; & '%INSTALLDIR%\helpers\chocolateyScriptRunner.ps1' -packageScript '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1' -installArguments '' -packageParameters '''] exited with '-1'.
+2019-09-17 13:41:07,184 15184 [DEBUG] - Calling command ['"C:\WINDOWS\System32\shutdown.exe" /a']
+2019-09-17 13:41:07,247 15184 [DEBUG] - Command ['"C:\WINDOWS\System32\shutdown.exe" /a'] exited with '1116'
+2019-09-17 13:41:07,451 15184 [DEBUG] - Capturing package files in '%INSTALLDIR%\lib\yarn'
+2019-09-17 13:41:07,451 15184 [DEBUG] -  Found '%INSTALLDIR%\lib\yarn\yarn.nupkg'
+  with checksum 'F2218F7FCAD27C6D2B95574E6B2C894D'
+2019-09-17 13:41:07,451 15184 [DEBUG] -  Found '%INSTALLDIR%\lib\yarn\yarn.nuspec'
+  with checksum '0F139E5054617727117420F6B3A766A8'
+2019-09-17 13:41:07,451 15184 [DEBUG] -  Found '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'
+  with checksum 'EC2FB8F39DB912BCB8DB069B4B7760A9'
+2019-09-17 13:41:07,466 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\.chocolatey".
+2019-09-17 13:41:07,466 15184 [DEBUG] - Adding 'Hidden' attribute(s) to '%INSTALLDIR%\.chocolatey'.
+2019-09-17 13:41:07,482 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\.chocolatey\yarn.1.17.3".
+2019-09-17 13:41:07,498 15184 [DEBUG] - There was no original file at '%INSTALLDIR%\.chocolatey\yarn.1.17.3\.files'
+2019-09-17 13:41:07,498 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\.chocolatey\yarn.1.17.3\.arguments".
+2019-09-17 13:41:07,498 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\.chocolatey\yarn.1.17.3\.extra".
+2019-09-17 13:41:07,513 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\.chocolatey\yarn.1.17.3\.version".
+2019-09-17 13:41:07,513 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\.chocolatey\yarn.1.17.3\.sxs".
+2019-09-17 13:41:07,513 15184 [DEBUG] - Attempting to delete file "%INSTALLDIR%\.chocolatey\yarn.1.17.3\.pin".
+2019-09-17 13:41:07,513 15184 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2019-09-17 13:41:07,513 15184 [ERROR] - The install of yarn was NOT successful.
+2019-09-17 13:41:07,529 15184 [ERROR] - Error while running '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'.
+ See log for details.
+2019-09-17 13:41:07,529 15184 [DEBUG] - Attempting to create directory "C:\Users\oscar\OneDrive\Programmering\oscar.lannbrink.se\%INSTALLDIR%\lib-bad".
+2019-09-17 13:41:07,545 15184 [DEBUG] - Moving '%INSTALLDIR%\lib\yarn'
+ to '%INSTALLDIR%\lib-bad\yarn'
+2019-09-17 13:41:09,554 15184 [DEBUG] - Attempting to delete file "C:\Users\oscar\AppData\Local\NuGet\Cache\yarn.1.17.3.nupkg".
+2019-09-17 13:41:09,570 15184 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2019-09-17 13:41:09,570 15184 [INFO ] - 
+2019-09-17 13:41:09,570 15184 [ERROR] - Failures
+2019-09-17 13:41:09,586 15184 [ERROR] -  - yarn (exited -1) - Error while running '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'.
+ See log for details.
+2019-09-17 13:41:09,586 15184 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2019-09-17 13:41:09,617 15184 [DEBUG] - Exiting with -1

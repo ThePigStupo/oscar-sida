@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="%INSTALLDIR%\lib\yarn\yarn.nupkg" checksum="F2218F7FCAD27C6D2B95574E6B2C894D" />
+    <file path="%INSTALLDIR%\lib\yarn\yarn.nuspec" checksum="0F139E5054617727117420F6B3A766A8" />
+    <file path="%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1" checksum="EC2FB8F39DB912BCB8DB069B4B7760A9" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,41 @@
+2019-09-17 13:40:39,308 15184 [INFO ] - ============================================================
+2019-09-17 13:40:39,840 15184 [INFO ] - Chocolatey v0.10.15
+2019-09-17 13:40:53,134 15184 [WARN ] - Directory '%INSTALLDIR%\lib' does not exist.
+2019-09-17 13:40:53,243 15184 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2019-09-17 13:40:53,275 15184 [INFO ] - Installing the following packages:
+2019-09-17 13:40:53,290 15184 [INFO ] - yarn
+2019-09-17 13:40:53,290 15184 [INFO ] - By installing you accept licenses for the packages.
+2019-09-17 13:40:54,012 15184 [INFO ] - [NuGet] Installing 'yarn 1.17.3'.
+2019-09-17 13:40:54,331 15184 [INFO ] - [NuGet] Successfully installed 'yarn 1.17.3'.
+2019-09-17 13:40:54,331 15184 [INFO ] - 
+yarn v1.17.3 [Approved]
+2019-09-17 13:40:54,346 15184 [INFO ] - yarn package files install completed. Performing other installation steps.
+2019-09-17 13:40:54,549 15184 [INFO ] - The package yarn wants to run 'chocolateyinstall.ps1'.
+2019-09-17 13:40:54,565 15184 [INFO ] - Note: If you don't run this script, the installation will fail.
+2019-09-17 13:40:54,565 15184 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2019-09-17 13:40:54,565 15184 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2019-09-17 13:40:54,596 15184 [INFO ] - Do you want to run the script?
+2019-09-17 13:40:54,612 15184 [INFO ] -  1) yes
+2019-09-17 13:40:54,612 15184 [INFO ] -  2) all - yes to all
+2019-09-17 13:40:54,612 15184 [INFO ] -  3) no
+2019-09-17 13:40:54,612 15184 [INFO ] -  4) print
+2019-09-17 13:41:03,581 15184 [ERROR] - Timeout or your choice of 'ya' is not a valid selection.
+2019-09-17 13:41:03,581 15184 [WARN ] - You must select an answer
+2019-09-17 13:41:03,596 15184 [INFO ] - Do you want to run the script?
+2019-09-17 13:41:03,596 15184 [INFO ] -  1) yes
+2019-09-17 13:41:03,612 15184 [INFO ] -  2) all - yes to all
+2019-09-17 13:41:03,612 15184 [INFO ] -  3) no
+2019-09-17 13:41:03,612 15184 [INFO ] -  4) print
+2019-09-17 13:41:06,812 15184 [INFO ] - Choice selected: 'yes'
+2019-09-17 13:41:07,059 15184 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2019-09-17 13:41:07,168 15184 [ERROR] - ERROR: The term 'Install-ChocolateyPackage' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2019-09-17 13:41:07,513 15184 [ERROR] - The install of yarn was NOT successful.
+2019-09-17 13:41:07,529 15184 [ERROR] - Error while running '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'.
+ See log for details.
+2019-09-17 13:41:09,570 15184 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2019-09-17 13:41:09,570 15184 [INFO ] - 
+2019-09-17 13:41:09,570 15184 [ERROR] - Failures
+2019-09-17 13:41:09,586 15184 [ERROR] -  - yarn (exited -1) - Error while running '%INSTALLDIR%\lib\yarn\tools\chocolateyinstall.ps1'.
+ See log for details.
